@@ -31,9 +31,7 @@ Then, to install for everyone:
 
 Finally, simply delete the `git-repo-updater` directory, and you're done!
 
-__Note:__ If you are using Windows, you may wish to add a macro so you can
-invoke gitup in any directory. Note that `C:\python27\` refers to the
-directory where Python is installed:
+__Note:__ If you are using Windows and have not defined a system python, you may wish to add a macro so you can invoke gitup in any directory. Note that `C:\python27\` refers to the directory where Python is installed:
 
     DOSKEY gitup=c:\python27\python.exe c:\python27\Scripts\gitup $*
 
